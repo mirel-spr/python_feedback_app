@@ -1,6 +1,6 @@
 from datetime import datetime
-from app import db
-from models.key import Key
+from app.app import db
+from app.models.key import Key
 
 class User(db.Model):
     __tablename__ = 'users'

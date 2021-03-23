@@ -1,4 +1,4 @@
-from app import db
+from app.app import db
 
 class Feedback(db.Model):
     __tablename__ = 'feedback'
